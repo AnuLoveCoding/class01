@@ -1,0 +1,22 @@
+run = "dart main.dart"
+entrypoint = "main.dart"
+
+[packager]
+language = "dart-pub"
+
+[packager.features]
+packageSearch = true
+
+[nix]
+channel = "stable-22_11"
+
+[languages]
+
+[languages.dart]
+pattern = "**/*.dart"
+
+[languages.dart.languageServer]
+start = "dart language-server"
+
+[deployment]
+run = ["sh", "-c", "dart main.dart"]
