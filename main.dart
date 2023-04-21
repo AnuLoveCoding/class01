@@ -16,11 +16,17 @@ void main(List<String> args) {
   // print(value);
 
 
-  var salary = 30000;
-  if(salary > 45000){
-    print('Good\'s salary');
-  }else{
-    print('Bad\'s salary');
+  // var salary = 30000;
+  // if(salary > 45000){
+  //   print('Good\'s salary');
+  // }else{
+  //   print('Bad\'s salary');
+  // }
+
+  List student_frnd = ['Anurag','Manjit','suresh','pankaj'];
+
+  for(var i in student_frnd){
+    print(i);
   }
   
 }
