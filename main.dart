@@ -23,7 +23,7 @@ void main(List<String> args) {
   //   print('Bad\'s salary');
   // }
 
-  List student_frnd = ['Anurag','Manjit','suresh','pankaj'];
+  List student_frnd = ['Anurag','Manjit','suresh','pankaj','Manjit'];
 
   for(var i in student_frnd){
     print(i);
