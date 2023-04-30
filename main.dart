@@ -98,15 +98,31 @@ void main(List<String> args) {
     
   // }
 
-  print(formula(5, 6));
+  // Function for calculate the value of a and b;
+  // print(formula(5, 6));
+
+
+  // optional parameters;
+
   
+  city('New Delhi');
   
 }
 
-int formula(int a, int b){
+  void city(String name1){
 
-    int ans =  2 * (a + b);
+    var i=1;
 
-   return ans;
+    while(i <= 3){
+      print('Name1 is :  $name1');
+
+      i++;
+    }
+    
   }
+
+
+
+  // This is called fat arrow;
+ // int formula(int a, int b) =>  2 * (a + b);
 
