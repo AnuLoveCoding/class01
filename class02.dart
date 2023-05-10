@@ -1,18 +1,15 @@
 void main(List<String> args) {
 
-
-  findvolume(breadth : 10, 2, height : 5);
+var a = 6;
  
-}
 
-void findvolume(var length, {var breadth,  var height}){
+ // (a < 10) ? print(true) : print (false);
 
-  print('length is : $length');
-  print('breadth is : $breadth');
-  print('height is : $height');
-
-
-  print('volume is : ${length * breadth * height}');
-
+  print(name(a, 6));
   
 }
+
+int name(int a, int b) =>  (a + b);
+  
+
+
