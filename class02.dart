@@ -1,9 +1,11 @@
+import 'dart:collection';
+
 void main(List<String> args) {
 
-// var a = 6;
+  // var a = 6;
  
 
- // (a < 10) ? print(true) : print (false);
+  // (a < 10) ? print(true) : print (false);
 
   // print(name(a, 6));
 
@@ -77,15 +79,23 @@ void main(List<String> args) {
 
 
 
-  Set set1  = { 10,20,30,40,50,60,70,80,90};
-  set1.add(85);
-  set1.addAll([44,52,77]);
-  set1.remove(77);
+  // Set set1  = { 10,20,30,40,50,60,70,80,90};
+  // set1.add(85);
+  // set1.addAll([44,52,77]);
+  // set1.remove(77);
   
-  print(set1.isEmpty);
-  print(set1.runtimeType);
+  // print(set1.isEmpty);
+  // print(set1.runtimeType);
 
 
+  // ====== HashSet ======== //
+
+  Set hash1 = HashSet();
+  
+  hash1.add(10);
+  hash1.addAll([20,55,40,487]);
+
+  print(hash1);
 
   
 }
